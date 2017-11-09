@@ -59,12 +59,12 @@ var DialogService = (function () {
         this.container.appendChild(componentRootNode);
         return componentRef.instance;
     };
+    DialogService = __decorate([
+        core_1.Injectable(),
+        __param(3, core_1.Optional()),
+        __metadata("design:paramtypes", [core_1.ComponentFactoryResolver, core_1.ApplicationRef, core_1.Injector, DialogServiceConfig])
+    ], DialogService);
     return DialogService;
 }());
-DialogService = __decorate([
-    core_1.Injectable(),
-    __param(3, core_1.Optional()),
-    __metadata("design:paramtypes", [core_1.ComponentFactoryResolver, core_1.ApplicationRef, core_1.Injector, DialogServiceConfig])
-], DialogService);
 exports.DialogService = DialogService;
 //# sourceMappingURL=dialog.service.js.map
