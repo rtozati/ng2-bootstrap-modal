@@ -1,5 +1,5 @@
 {
-  "name": "ngx-bootstrap-modal",
+  "name": "ngx-bootstrap-modal-ass",
   "version": "1.0.0",
   "description": "It is a library to make managment of bootstrap modal dialogs easier in Angular",
   "main": "index.js",
@@ -9,7 +9,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/rtozati/ngx-bootstrap-modal.git"
+    "url": "git+https://github.com/rtozati/ngx-bootstrap-modal-ass.git"
   },
   "keywords": [
     "angular2",

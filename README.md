@@ -12,7 +12,7 @@ Compatible with bootstrap 3 and bootstrap 4.
 
 ##Installation
 ```npm
-npm install ngx-bootstrap-modal
+npm install ngx-bootstrap-modal-ass
 ```
 See [Live Demo](https://plnkr.co/edit/MB6NnzfhicMyAiMJy6YM?p=preview) 
 
@@ -96,7 +96,7 @@ app.module.ts:
 import { NgModule} from '@angular/core';
 import { CommonModule } from "@angular/common";
 import { BrowserModule } from '@angular/platform-browser';
-import { BootstrapModalModule } from 'ngx-bootstrap-modal';
+import { BootstrapModalModule } from 'ngx-bootstrap-modal-ass';
 import { AppComponent } from './app.component';
 @NgModule({
   declarations: [
@@ -132,7 +132,7 @@ Therefore **DialogService** is supposed to be a constructor argument of **Dialog
 confirm.component.ts:
 ```typescript
 import { Component } from '@angular/core';
-import { DialogComponent, DialogService } from "ngx-bootstrap-modal";
+import { DialogComponent, DialogService } from "ngx-bootstrap-modal-ass";
 export interface ConfirmModel {
   title:string;
   message:string;
@@ -179,7 +179,7 @@ app.module.ts:
     import { NgModule} from '@angular/core';
     import { CommonModule } from "@angular/common";
     import { BrowserModule } from '@angular/platform-browser';
-    import { BootstrapModalModule } from 'ngx-bootstrap-modal';
+    import { BootstrapModalModule } from 'ngx-bootstrap-modal-ass';
     import { ConfirmComponent } from './confirm.component';
     import { AppComponent } from './app.component';
     @NgModule({
@@ -207,7 +207,7 @@ app.component.ts
 ```typescript
     import { Component } from '@angular/core';
     import { ConfirmComponent } from './confirm.component';
-    import { DialogService } from "ngx-bootstrap-modal";
+    import { DialogService } from "ngx-bootstrap-modal-ass";
     
     @Component({
       selector: 'app',

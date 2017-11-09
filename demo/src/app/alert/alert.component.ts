@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { DialogComponent, DialogService } from 'ngx-bootstrap-modal';
+import { DialogComponent, DialogService } from 'ngx-bootstrap-modal-ass';
 
 export interface AlertModel {
   title: string;
