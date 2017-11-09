@@ -46,7 +46,7 @@ var DialogWrapperComponent = (function () {
     DialogWrapperComponent = __decorate([
         core_1.Component({
             selector: 'dialog-wrapper',
-            template: "\n    <div #container class=\"modal fade\" style=\"display:block !important;\" role=\"dialog\">\n        <template #element></template>\n    </div>\n"
+            template: "\n    <div #container class=\"modal fade\" style=\"display:block !important;\" role=\"dialog\">\n        <ng-template #element></ng-template>\n    </div>\n"
         }),
         __metadata("design:paramtypes", [core_1.ComponentFactoryResolver, dialog_service_1.DialogService])
     ], DialogWrapperComponent);
